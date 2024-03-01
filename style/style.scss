@@ -45,6 +45,12 @@ body {
 					width: 80px;
 					text-align: left;
 
+					.error {
+						color: $c-Light-red;
+						font-size: 0.65em;
+						padding-top: 5px;
+					}
+
 					label {
 						font-size: 0.8em;
 						letter-spacing: 3px;
