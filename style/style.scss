@@ -120,6 +120,27 @@ body {
 	}
 
 	footer {
+		font-size: 11px;
+		text-align: center;
+		ul {
+			display: flex;
+			justify-content: center;
+			list-style: none;
+			font-size: 25px;
+			li {
+				padding: 10px;
+				a {
+					color: $c-Purple;
+					text-decoration: none;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					border-radius: 50%;
+				}
+				
+			}
+		}
+
 		position: absolute;
 		bottom: 0;
 	}
